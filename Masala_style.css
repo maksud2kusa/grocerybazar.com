@@ -1,0 +1,94 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', serif;
+    /* background: url('./PICS/final.jpg') no-repeat center center fixed;  */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+h1 {
+    font-family: 'Satisfy', serif;
+    color: #d4192b;
+    font-size: 5rem;
+    text-align: center; 
+    text-shadow: 4px 4px 2px darkgray;
+    margin-bottom: 15px;
+}
+hr {
+    border: hsl(354, 79%, 46%) solid 3px;
+    max-width: 500px;
+    margin-bottom: 25px;
+}
+
+.btn-primary {
+    background-color: red;
+    border: black solid 4px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 15px 25px;
+}
+.btn-primary:hover {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: green;
+    border: black solid 8px;
+}
+.btn-primary:click {
+    background-color: #fff;
+}
+
+.buffer {
+    height: 1rem;
+}
+.row {
+    width: 100%;
+}
+.nav-left {
+    /* border: black solid 2px; */
+}
+
+.nav-left img {
+    height: 65px;
+}
+.nav-mid {
+    /* border: black solid 2px; */
+    width: 100%;
+    padding: 10px 50px;
+    text-align: justify;    
+}
+.nav-mid a {
+    padding: 15px;
+    color: red;
+    font-size: 24px;
+}
+.main-bg {
+    width: 100%;
+}
+.footer, .footer p {
+    margin-top: 25px;
+    padding-top: 25px;
+    text-align: center;
+}
+.online-order {
+    font-size: 45px;
+}
+#gform {
+    width: 100%;
+    background-color: ;
+    font-size: 58px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#btn-sec {
+    background-color: green;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    border: black solid 8px;
+}
+.shp-cart {
+    text-align: center;
+}
